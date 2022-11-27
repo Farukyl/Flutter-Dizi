@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
       body: Center(
           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
         Text('Diziye Gidiş '),
-        RaisedButton(
+        ElevatedButton(
             child: Text('İlk Diziye Git'),
             onPressed: () {
               
@@ -49,7 +49,7 @@ class Dizi1 extends StatelessWidget {
        
       (Image(image: NetworkImage('https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_.jpg'))),
           
-        RaisedButton(
+        ElevatedButton(
             child: Text('İkinci Diziye Git'),
             onPressed: () {
               
@@ -89,7 +89,7 @@ class Dizi2 extends StatelessWidget {
             
             
         
-        RaisedButton(child: Text('Ana Sayfaya Dön'), onPressed: () {
+        ElevatedButton(child: Text('Ana Sayfaya Dön'), onPressed: () {
           
           
           
